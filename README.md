@@ -10,7 +10,7 @@ The project transforms the original infrastructure of a RNN sentiment prediction
 
 **Project Goals**: Implements various AWS cloud stack concepts covered in Phase I of the scholoarship challenge, namely Lesson 12 thru 23, plus additional advanced concepts such as Serverless Framework, CI/CD, Docker, API Gateway, ECS, ECR, DynamoDB and Microservices.
 
-**Project Team**: an international team with 3 members from Phase I of the Cloud Track Challenge: 
+**Project Team**: an international team with 3 members from Phase I of the Cloud Track Challenge:
 * [Adrik S](https://github.com/Adriks976) (France)
 * [Audrey ST](https://github.com/atan4583) (Australia)
 * [Christopher R](https://github.com/christopherrauh) (Germany).
@@ -113,4 +113,5 @@ The project transforms the original infrastructure of a RNN sentiment prediction
 This is a POC (proof of concept) project the project team put together to implement and practice basic cloud DevOps concepts from this phase I Challenge and experiment advanced concepts nominated by team members.
 
 The project was 100% unfunded and utilized AWS free-tier account to conduct the POC. The impediments experienced during the implementation and resolutions are listed below:
+
 ![png](assets/ImpRes.png)
