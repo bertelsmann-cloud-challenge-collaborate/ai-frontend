@@ -34,7 +34,7 @@ var app = new Vue({
       review_save = review;
       axios({
         "method": "POST",
-        "url": "https://2zf97hf8ui.execute-api.us-west-2.amazonaws.com/prod/getSentiment",
+        "url": "https://gvvik49go8.execute-api.us-west-2.amazonaws.com/prod/getSentiment",
         "data": json,
         "headers": { "content-type": "application/json" }
       }).then(result => {
@@ -61,7 +61,7 @@ var app = new Vue({
           console.log(json);
       axios({
         "method": "POST",
-        "url": "https://2zf97hf8ui.execute-api.us-west-2.amazonaws.com/prod/setSentiment",
+        "url": "https://gvvik49go8.execute-api.us-west-2.amazonaws.com/prod/setSentiment",
         "data": json,
         "headers": { "content-type": "application/json" }
       }).then(result => {
@@ -90,7 +90,7 @@ var app = new Vue({
             console.log(json);
         axios({
           "method": "POST",
-          "url": "https://2zf97hf8ui.execute-api.us-west-2.amazonaws.com/prod/setSentiment",
+          "url": "https://gvvik49go8.execute-api.us-west-2.amazonaws.com/prod/setSentiment",
           "data": json,
           "headers": { "content-type": "application/json" }
         }).then(result => {
