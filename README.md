@@ -1,39 +1,29 @@
-# Udacity Bertelsmann Technical Scholarship Cloud Track Challenge Collaboration
-This repo contains the team project deliverables from the cloud track challenge program.
+# Udacity Bertelsmann Technical Scholarship Cloud Track Challenge Project - Deploy An AI Sentiment Prediction App to AWS Cloud
  ---
-#### _Project development is currently under way, deliverables will be added incrementally to this repo. Follow us to watch this space :sunglasses:!_
+#### _The project was created by 3 scholars from the Cloud Track Challenge_
 
-![png](BertelsmannChallenge.png)
+* [Adrik S](https://github.com/Adriks976) (France)
+* [Audrey ST](https://github.com/atan4583) (Australia)
+* [Christopher R](https://github.com/christopherrauh) (Germany).
 
-## Project Information
-The team comprises of [Adrik S](https://github.com/Adriks976), [Audrey ST](https://github.com/atan4583) and [Christopher R](https://www.linkedin.com/in/christopher-rauh/). We
-
-* plan to deliver a demo cloud DevOps model leveraging and extending on concepts we learned from the cloud track challenge program.
-
-* are building an automated deployment pipeline to deploy a sentiment prediction classifier app to AWS cloud leveraging Serverless Framework, AWS Lambda, Amazon API Gateway, DynamoDB, S3 Bucket, Elastic Load Balancing, ECS and ECR services.
-
-
-### About Automated Deployment Pipeline
-
-> * construction in progress...
+### Repo Information
+> * this repo contains the project website static files **_index.html_** and **_app.js_**
 >
+> * the files reside in the **_static_** folder
 >
-> *
->
+> *   on push to master branch, CI/CD Action on this repo copies the files to the S3 bucket hosting the project website on AWS
 
-
- ---
-### About Sentiment Prediction Classifier App
-> * construction in progress...
+### CI/CD Action
+> * triggered on push to master branch
 >
+> * workflow file: .github/workflows/aws.yml
 >
-> *
+> * enviroment variables
+ >  * **AWS_S3_BUCKET**: s3 bucket **_ai-frontend_**
+ >  * **AWS_ACCESS_KEY_ID**: access-key-id of iam user **_sc-frontend_**
+ >  * **AWS_SECRET_ACCESS_KEY**: secret-access-key of iam user **_sc-frontend_**
+ >  * AWS_REGION: 'us-west-2'   #default: 'us-east-1'
+ >  * SOURCE_DIR: 'static'      #default: whole repo
 >
- ---
- ### About Cloud DevOps Model Built on Serverless Framework and AWS Services
- > * construction in progress...
- >
- >
- > *
- >
-  ---
+> * environment variables in **bold** are required variables and stored in **Settings/Secrets**
+>
