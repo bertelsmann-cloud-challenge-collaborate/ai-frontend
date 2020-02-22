@@ -4,7 +4,7 @@
 
 * [Adrik S](https://github.com/Adriks976) (France)
 * [Audrey ST](https://github.com/atan4583) (Australia)
-* [Christopher R](https://github.com/christopherrauh) (Germany).
+* [Christopher R](https://github.com/christopherrauh) (Germany)
 
 ### Repo Information
 ![png](assets/cicd-s3-deploy.png)
